@@ -5,5 +5,5 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@riophae/vue-treeselect@0.0.34/dist/vue-treeselect.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/v-charts/lib/style.min.css"> {% endblock %}
 {% block content %}
-{{#volt 'partial("common/sidebar")'}}
+{{#volt 'partial("common/sidebar")'}}{{/volt}}
 {% endblock %}
