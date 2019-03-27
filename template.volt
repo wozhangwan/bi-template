@@ -32,6 +32,7 @@
             <td>{{type}}</td>
             <td>{{label}}</td>
           </tr>
+          {{/each}}
 
         </form>
       </template>
