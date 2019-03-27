@@ -26,6 +26,12 @@
     <div class="portlet">
       <template>
         <form action="" id="form_sample_1" class="form-horizontal clearfix" novalidate="novalidate">
+          {{#each header.form}}
+          <tr>
+            <td>{{name}}</td>
+            <td>{{type}}</td>
+            <td>{{label}}</td>
+          </tr>
 
         </form>
       </template>
@@ -75,7 +81,6 @@
     </template>
   </div>
 </div>
-
 <button type="button" class="tabs_show isShow" style="position:fixed;left: 0;top:50%;width:45px;height:45px;margin-top:-22.5px;background:#009dc7;border-width: 0;">
   <i class="icon-logout" style="font-size:20px;color:#fff;padding:5px;"></i>
   <i class="icon-login" style="font-size:20px;color:#fff;padding:5px;display: none;"></i>
